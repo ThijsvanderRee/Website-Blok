@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-image: url(<?php echo $bg;?>);
+}
+
+ul {
+    width: auto;
+    padding: 10px;
+    background-color: darkgray;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    background-color: gray;
+    padding: 11px;
+    transition: 0.3s;
+    color: white;
+    text-shadow: black 1px 1px;
+}
+
+li:hover {
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+header {
+    width: auto;
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+    text-shadow: black 1px 1px;
+    padding: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    text-shadow: black 1px 1px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
