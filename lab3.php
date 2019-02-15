@@ -16,7 +16,6 @@
 </head>
 <body>
     <?php include 'navbar.php';?>
-    <?php include 'header.php';?>
     <?php
         // -----a
         echo "<h1>lab 3-a</h1>";

@@ -36,7 +36,6 @@
 </head>
 <body class="<?php echo $bg; ?>">
     <?php include 'navbar.php';?>
-    <?php include 'header.php';?>
 
     <h1> <?=$greetings ?> </h1>
     <?php echo "<h2>De tijd is: ". $time_min ."</h2>";?>
